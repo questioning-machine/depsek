@@ -6,16 +6,16 @@ relative_links:
 include:
   - README.md
   - LICENSE.md
-url: https://thingking-machine.github.io
+url: https://questioning-machine.github.io
 baseurl: /depsek
 
-title: Thingking Machine
+title: Questioning Machine
 description: A machine is a thing. Things can not think. ...but some of them can thingk!
 
 machine:
-  name: Thingking-Machine
-  verb: Thingking
-  instructions_file: thingking.md
+  name: Questioning-Machine
+  verb: Questioning
+  instructions_file: questioning.md
   token: depsek
   server: https://localhost:443
   apiUrl: https://api.deepseek.com/chat/completions
@@ -32,8 +32,8 @@ lm:
   top_p: 0.95
 
 github_settings:
-  owner: thingking-machine
-  repo: thingking_machine
+  owner: questioning-machine
+  repo: questioning_machine
   file_name: machina.yaml
   branch: main
   token_file: github.txt
